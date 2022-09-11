@@ -1,3 +1,4 @@
+cd $HOME
 _evalBg() {
 eval "$@" &>/dev/null & disown;
 }
